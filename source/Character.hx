@@ -130,15 +130,15 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 
-			case 'dad':
+			case 'Aldryx':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
+				tex = Paths.getSparrowAtlas('characters/ALDRYX_B');
 				frames = tex;
-				quickAnimAdd('idle', 'Dad idle dance');
-				quickAnimAdd('singUP', 'Dad Sing Note UP');
-				quickAnimAdd('singRIGHT', 'Dad Sing Note RIGHT');
-				quickAnimAdd('singDOWN', 'Dad Sing Note DOWN');
-				quickAnimAdd('singLEFT', 'Dad Sing Note LEFT');
+				quickAnimAdd('idle', 'BF idle dance');
+				quickAnimAdd('singUP', 'BF Sing Note UP');
+				quickAnimAdd('singRIGHT', 'BF Sing Note RIGHT');
+				quickAnimAdd('singDOWN', 'BF Sing Note DOWN');
+				quickAnimAdd('singLEFT', 'BF Sing Note LEFT');
 
 				loadOffsetFile(curCharacter);
 
